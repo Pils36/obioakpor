@@ -1,0 +1,38 @@
+nav .logo{
+	margin: 10px; padding: 0;
+	border-radius: 50%; width: 55px;
+	opacity: 0.9;
+}
+nav{
+	top: 0;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	bottom: 0;
+}
+nav a{
+	color:#fff;font-size: 14px;
+	text-decoration: none; text-transform: uppercase;
+}
+nav ul{
+	padding: 20px 22px;
+	margin: 0px 20px;
+	list-style: none; float: right;
+	display:flex;
+}
+ul li{
+	margin: 0px;
+	padding: 10px 15px;
+}
+ul li .w3-dropdown{
+	position: relative;
+	display: inline-block;
+}
+ul li .w3-dropdown-content{
+	position: absolute;
+	display: none; background-color: red; border-radius: 6px;
+	min-width: 60px;
+}
+.w3-dropdown .w3-dropdown-content{
+	display: block;
+}
